@@ -1,0 +1,9 @@
+需要在服务器上安装好scp，通过yum安装执行：yum install openssh-clients
+
+上传文件命令：
+
+scp filename(文件名) root@1.1.1.1（远程服务器IP）:/root/a
+
+下载文件命令:
+
+scp 远程登录服务器用户名@远程服务器ip地址:/下载文件的目录 『空格』 本地目录
