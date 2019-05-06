@@ -124,5 +124,8 @@ vsftpd.conf 的配置文件参数说明
 3. ftp服务器发回了不可路由的地址
 解决： 配置文件vsftpd.conf里ipv6没有设置成NO
 
+4. 上传失败553
+解决： 可能是权限问题，`chown -R zl123:zl123 /www` 比如把www目录设置成用户zl123权限
+
 
 
